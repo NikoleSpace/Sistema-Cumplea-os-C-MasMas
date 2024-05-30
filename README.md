@@ -9,7 +9,8 @@ Implementación de un sistema en C++ para gestionar fechas de cumpleaños de var
 - Filtrar cumpleaños: Permitir filtrar en base a su etiqueta
 - Salir: Terminar el programa.
 
-El programa debe utilizar clases para representar a las personas y sus fechas de cumpleaños, y almacenar esta información en un contenedor adecuado de la STL (por ejemplo, std::vector).
+El programa utiliza las clases: Fecha, Persona, SistemaCumpleaños.
+Asimismo, se emplean varias partes de la biblioteca estándar de C++ como: vector para manejar listas dinámicas de cumpleaños, algorithm para operaciones como find_if, remove_if, y sort, ctime para manejar y calcular fechas.
 
 # Resultados
 ## Mostrar todos los cumpleaños
